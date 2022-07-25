@@ -1,8 +1,11 @@
-/* styles go here */
-input {
-  margin-top: 10px;
+.form__group {
+  margin-bottom: 20px;
 }
 
-fieldset {
-  margin-top: 20px;
+.form__field {
+  display: block;
+}
+
+.form__field:not(:last-child) {
+  padding-bottom: 10px;
 }
